@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .Corpo {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <nav class="navbar bg-danger fixed-top" style="position: fixed;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="v4.png" alt="" style="width: 15%;"></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </form>
+            <div class="offcanvas offcanvas-end bg-danger" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">TESTE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Sair</a>
+                        </li>
+                        <li">
+                            <img src="./v4.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="Corpo p-4" style="background-color: #f5f5f5; border-radius: 10px; max-width: 900px;">
+            <h3 class="text-center mb-4">Caixa de Entrada</h3>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Assunto do E-mail 1</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">De: remetente1@example.com</h6>
+                    <p class="card-text">O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.</p>
+                    <p class="card-text"><small class="text-muted">Data: 2024-04-09</small></p>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">Assunto do E-mail 2</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">De: remetente2@example.com</h6>
+                    <p class="card-text">O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.</p>
+                    <p class="card-text"><small class="text-muted">Data: 2024-04-08</small></p>
+                </div>
+            </div>
+            <!-- Adicione mais e-mails fictícios conforme necessário -->
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">Assunto do E-mail 3</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">De: remetente3@example.com</h6>
+                    <p class="card-text">O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.</p>
+                    <p class="card-text"><small class="text-muted">Data: 2024-04-07</small></p>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">Assunto do E-mail 4</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">De: remetente4@example.com</h6>
+                    <p class="card-text">O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.O sol brilha intensamente no céu azul, iluminando o dia com sua luz radiante.</p>
+                    <p class="card-text"><small class="text-muted">Data: 2024-04-06</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
